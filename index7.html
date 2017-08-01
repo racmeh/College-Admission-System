@@ -1,0 +1,160 @@
+<html><head>
+     
+<style>
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a.cd {
+    float: left;
+    width: 7.9em;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+a.cd :hover {background-color: #ff3300;}
+
+li {display: inline;}
+    
+
+    form {
+        text-align: center;
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 45% 12px 36%;
+    width: 30%;
+}
+#11
+    {
+        text-align: center;
+    }
+img.avatar {image-align: center;
+    width: 40%;
+    border-radius: 50%;
+}
+ h1
+    {
+    color : saddlebrown;
+        background-color: gainsboro;
+        text-align: center;
+        font-size: 44px;
+        margin:0;
+    padding:0;
+    }
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+footer {
+    position : absolute;
+        background-color: white;
+    bottom : 0px;
+    height : 100px;
+    margin-top : 0;
+       }
+    body{
+        background-color: darkgoldenrod;
+    }
+    #am{
+        width :60%;
+        align-items: center;
+         
+ background-color: aliceblue;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    }
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+    label{
+min-width:80px;
+display: inline-block;
+}
+</style>
+    </head>
+<body>
+    <img src="Untitled.png" alt="some_text" height="13%" width="100%">
+<ul>
+     <li><a class="cd" href="index.html">Home</a></li>
+  <li><a class="cd" href="index1.html">About us</a></li>
+  <li><a class="cd" href="index2.html">Academics</a></li>
+  <li><a class="cd" href="index3.html">Fee</a></li>
+  <li><a class="cd" href="index4.html">Admissions</a></li>
+  <li><a class="cd" href="index5.html" >Career</a></li>
+    <li><a class="cd" href="index6.html" >Register</a></li>
+    <li><a class="cd" href="index7.html" >Login</a></li>
+    <li><a class="cd" href="index8.html" >Admin Login</a></li>
+</ul>
+    <div id='am'>
+
+
+<form action="php2.php" method="post">
+  <div class="imgcontainer">
+      <h2>Student Login </h2>
+    <img src="img_avatar2.png" alt="Avatar" class="avatar" >
+  </div>
+
+  <div class="container">
+    <label><b>Application id</b></label>
+    <input type="text" placeholder="Enter application id" name="aid" required><br>
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+         <input type="checkbox" checked="checked"> Remember me<br>
+    <button type="submit" value="submit">Login</button>
+   
+  </div>
+
+  
+</form>
+    </div>
+    <footer><img src="Untitled2.png" alt="some_text" height="100%" width="100%"></footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 10px ;
+}
+td, th {
+    background-color: aliceblue;
+    padding: 15px;
+	
+}
